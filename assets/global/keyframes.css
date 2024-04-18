@@ -1,0 +1,10 @@
+
+@keyframes writing {
+    from { width: 0 }
+    to { width: 290px }
+}
+
+@keyframes borda-piscando {
+    from, to {border-color: transparent}
+    50% {border-color: var(--p-color)}
+}

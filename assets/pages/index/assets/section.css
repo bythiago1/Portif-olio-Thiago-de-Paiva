@@ -22,7 +22,7 @@ section .container h1 {
 
 section .container p {
     width: 290px;
-    height: 26px;
+    height: 1.2em;
     margin: 0 auto 30px 0;
     font-size: 1.6em;
     overflow: hidden;
@@ -39,14 +39,4 @@ section .container .start #earth {
 
 section .container.dark {
     color: #000;
-}
-
-@keyframes writing {
-    from { width: 0 }
-    to { width: 290px }
-}
-
-@keyframes borda-piscando {
-    from, to {border-color: transparent}
-    50% {border-color: var(--p-color)}
 }
