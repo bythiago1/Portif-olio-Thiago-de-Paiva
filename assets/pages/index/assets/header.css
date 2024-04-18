@@ -1,0 +1,51 @@
+header {
+    box-shadow: 1px 5px 10px  #0000000c;
+}
+
+header .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+    font-family: Roboto, sans-serif;
+}
+
+header .container a {
+    font-size: 1.1em;
+    color: var(--font-color);
+    margin-left: 25px;
+}
+
+header .container h1 {
+    font-family: Caveat, cursive;
+    font-size: 42px;
+}
+
+header .container h1 span {
+    color: var(--p-color);
+}
+
+header .container ul li {
+    display: inline-block;
+}
+
+header .container ul li a {
+    font-weight: bold;
+    display: block;
+}
+
+header .container ul li a:hover {
+    border-bottom: 2px solid var(--p-color);
+    transform: translateY(-1px);
+}
+
+header .container a.dark{
+    color: #000;
+}
+
+header .container a.dark:hover {
+    border-bottom: 2px solid var(--p-color);
+}

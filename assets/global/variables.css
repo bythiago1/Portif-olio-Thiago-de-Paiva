@@ -1,0 +1,13 @@
+:root {
+    --main-bg: #1b1919;
+    /* --p-color: #FF003D;
+    --s-color: #E40037; */
+    --font-color: #ccc;
+    
+    --p-color: #00ffff80;
+}
+
+:root.dark {
+    --p-color: #a2ca43;
+    
+}
